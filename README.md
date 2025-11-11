@@ -1,4 +1,4 @@
-Hostel Management System
+**Hostel Management System**
 
 A Full Stack Hostel Management System built with Node.js, Express, React, and MongoDB.
 This project helps automate hostel operations such as student registration, room allocation, and fee management through an easy-to-use web interface.
@@ -12,7 +12,7 @@ View allocated room and payment details
 
 Request maintenance or report issues
 
-🏢 For Admin
+🏢 **For Admin**
 
 Manage students and staff
 
@@ -22,14 +22,15 @@ Track payments and outstanding fees
 
 Generate reports and statistics
 
-🧩 Tech Stack
+🧩 **Tech Stack**
 Layer	Technology
 Frontend	React.js, HTML, CSS, JavaScript
 Backend	Node.js, Express.js
 Database	MongoDB
 Authentication	JWT (JSON Web Token)
 Version Control	Git & GitHub
-📁 Project Structure
+
+📁 **Project Structure**
 hostel-management-system/
 │
 ├── hostel-management-backend/
@@ -51,7 +52,7 @@ hostel-management-system/
 └── README.md
 
 ⚙️ Installation & Setup
-🧱 Prerequisites
+🧱 **Prerequisites**
 
 Make sure you have:
 
@@ -61,7 +62,7 @@ MongoDB (local or Atlas)
 
 Git
 
-🔧 Steps
+🔧 **Steps**
 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/hostel-management-system.git
 cd hostel-management-system
@@ -85,7 +86,7 @@ npm start
 
 Frontend will start on http://localhost:3000.
 
-🔐 Environment Variables
+🔐 **Environment Variables**
 
 Create a .env file inside the backend folder with the following:
 
@@ -93,11 +94,12 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-📦 Scripts
+📦 **Scripts**
 Command	Description
 npm start	Runs the project
 npm run dev	Runs server with nodemon
 npm run build	Builds the frontend for production
+
 🤝 Contributing
 
 Pull requests are welcome!
